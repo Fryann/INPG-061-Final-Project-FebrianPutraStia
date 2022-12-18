@@ -1,0 +1,195 @@
+.background{
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    width:50px;
+    height:50px;
+}
+
+#tulisan{
+    text-align:start;
+}
+
+.text-welcome{
+    color: orange;
+}
+
+.text-judul{
+    color: rgb(255, 255, 255);
+}
+
+.text-subjudul{
+    color: white;
+}
+
+.jumbotron-fluid{
+    width: 48%;
+    margin-left: 16%;
+}
+
+.carousel-item{
+    color: white;
+    text-align: center;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: row;
+}
+
+#img-orang{
+    margin-left:5%;
+}
+
+#btn-order{
+    background-color: orange;
+    border-color: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+}
+
+.popup{
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.popup-content{
+    width:50%;
+    padding:2%;
+    background-color: white;
+    box-shadow: 0 20px 40px rgba(0,0,0,.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.25);
+    opacity: 0;
+    transition: all 0.5s 0.1s;
+}
+
+thead{
+    text-align: center;
+    font-weight: bold;
+    background-color: orange;
+}
+
+tbody{
+    text-align: left;
+}
+
+.judul-popup{
+    text-align: center;
+}
+
+#popup:target{
+    opacity: 1;
+    visibility: visible;
+}
+
+#popup:target .popup-content{
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+table{
+    border-style: 10px solid black;
+    table-layout: auto;
+}
+
+.close-popup:link,
+.close-popup:visited{
+    position: absolute;
+    top:12px;
+    right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    display: inline-block;
+    line-height: 1;
+    transition: all 0.3s;
+}
+
+.close-popup:hover,
+.close-popup:active{
+    color:gray;
+}
+
+table{
+    width:100%;
+}
+
+.table-baris1{
+    background-color: rgb(255, 223, 162);
+}
+
+.table-baris3{
+    background-color: rgb(255, 223, 162);
+}
+
+.table-baris5{
+    background-color: rgb(255, 223, 162);
+}
+
+.navbar{
+    box-shadow: 0 0 15px orange;
+}
+
+.navbar:hover{
+    box-shadow: 0 0 15px aqua;
+}
+
+.nav-link:hover{
+    color:aqua !important;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+    box-shadow: 0 0 15px orange;
+    margin-top:1%;
+    text-align: center;
+    color: white;
+}
+
+#footer:hover{
+    box-shadow: 0 0 15px aqua;
+}
+
+.company{
+    color: orange;
+}
+
+.follow{
+    color:orange
+}
+
+.support{
+    color: orange;
+}
+
+#company{
+    margin-left:15%;
+}
+
+#support{
+    margin-left: 15%;
+}
+
+#follow{
+    margin-left: 15%;
+}

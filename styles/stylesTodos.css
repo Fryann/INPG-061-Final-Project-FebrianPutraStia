@@ -1,0 +1,94 @@
+.logo{
+    width:50px;
+    height:50px;
+}
+
+body{
+    margin:0;
+}
+
+html{
+    background-color: black;
+}
+
+.jumbotron1{
+    background-color: black;
+    padding: 2% !important;
+}
+
+.jumbotron2{
+    background-color: black;
+    color: white;
+    width:50%;
+    height:auto;
+    text-align: center;
+    margin-left:25%;
+    box-shadow: 0px 0px 40px orange;
+    margin-bottom: 5%;
+}
+
+.jumbotron2:hover{
+    box-shadow: 0 0 40px aqua;
+}
+
+h1{
+    color: orange;
+}
+
+.todos{
+    text-align: center;
+    background-color: black;
+}
+
+.container-fluid{
+    background-color: black;
+}
+
+.navbar{
+    box-shadow: 0 0 15px orange;
+}
+
+.navbar:hover{
+    box-shadow: 0 0 15px aqua;
+}
+
+.nav-link:hover{
+    color:aqua !important;
+}
+
+#list-aktivitas{
+    color: white;
+    text-align: start;
+    margin-left: 20%;
+}
+
+#btn-clear{
+    margin-left: 10%;
+    background-color: orange;
+    color: black;
+    border: none;
+    box-shadow: 0 0 15px orange;
+    font-weight: bold;
+}
+
+#btn-clear:hover{
+    box-shadow: 0 0 15px aqua;
+    background-color: aqua;
+}
+
+#btn-submit2{
+    background-color: orange;
+    color: black;
+    border: none;
+    box-shadow: 0 0 15px orange;
+    font-weight: bold;
+}
+
+#btn-submit2:hover{
+    box-shadow: 0 0 15px aqua;
+    background-color: aqua;
+}
+
+.coret{
+    text-decoration: line-through black;
+}

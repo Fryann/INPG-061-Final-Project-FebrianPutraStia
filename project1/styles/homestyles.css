@@ -1,0 +1,56 @@
+.body{
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.orang{
+    margin-left:12%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#body-home{
+    display:flex;
+    flex-direction: row;
+}
+
+#tulisan{
+    display: flex;
+    flex-direction: column;
+}
+
+.Hello{
+    color:white;
+    font-size:larger;
+    margin-left: 30%;
+    margin-top: 50%;
+    margin-right:0%;
+    margin-bottom: 0%;
+    padding:0%;
+    font-weight:bold;
+}
+
+.Nama{
+    color:orange;
+    font-size:xxx-large;
+    margin-left: 30%;
+    margin-top: 0%;
+    margin-right:0%;
+    margin-bottom: 0%;
+    padding:0%;
+    font-weight:bold;
+}
+
+.Job{
+    color:white;
+    font-size:x-large;
+    margin-left: 30%;
+    margin-top: 0%;
+    margin-right:0%;
+    margin-bottom: 0%;
+    padding:0%;
+    font-weight:bold;
+}
+
+

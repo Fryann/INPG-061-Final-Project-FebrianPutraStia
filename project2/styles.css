@@ -1,0 +1,91 @@
+html{
+    background-color: black;
+}
+
+body{
+    margin:0;
+}
+
+#container{
+    background-color: black;
+}
+
+#container-luar{
+    background-color: rgb(43, 43, 43, .75);
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0px 0px 30px rgb(248, 209, 135);
+}
+
+#container-luar:hover{
+    box-shadow: 0px 0px 30px orange;
+}
+
+#judul{
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container-data{
+    display:flex;
+    flex-direction: row;
+}
+
+#container-total{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-isi{
+    background-color: black;
+    width: 100px;
+    height: 170px;
+    color:orange;
+    margin:3% !important;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgb(248, 209, 135);
+}
+
+.container-isi:hover{
+    box-shadow: 0px 0px 20px orange;
+}
+
+.input{
+    text-align: center;
+}
+
+#btn-get{
+    color: black;
+    font-weight: bold;
+    background-color: orange;
+    outline-color: none !important;
+    border:none;
+}
+
+#input-negara{
+    color: black;
+    text-align: center;
+}
+
+#input-tanggal{
+    color: black;
+    text-align: center;
+}
+
+.img-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.img-iconactive{
+    width:60px;
+    height:50px;
+}
+
+p{
+    color:white;
+    font-size: medium;
+}
